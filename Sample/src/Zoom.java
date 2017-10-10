@@ -19,6 +19,7 @@ public class Zoom extends JFrame implements ActionListener {
 	JButton buttonPlus, buttonMinus;
 
 	double factor = 0.5;
+	
 
 	Zoom() {
 
