@@ -1,0 +1,64 @@
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ CloudAccessManager ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ CloudAccessManager ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 15 source files to C:\Users\primesoftadmin\workspace\CloudAccessManager\target\test-classes
+[INFO]
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ CloudAccessManager ---
+[INFO] Surefire report directory: C:\Users\primesoftadmin\workspace\CloudAccessManager\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.primesoft.admin.controller.CustomScriptControllerTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.526 sec
+Running com.primesoft.admin.controller.DeploymentControllerTest
+Tests run: 36, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.609 sec
+Running com.primesoft.admin.controller.LoginControllerTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.144 sec
+Running com.primesoft.admin.controller.MonitorControllerTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running com.primesoft.admin.controller.ReaperControllerTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec
+Running com.primesoft.admin.controller.UserControllerTest
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.444 sec
+Running com.primesoft.admin.helper.ReaperHelperTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+Running com.primesoft.admin.serviceimpl.DeploymentServiceImplTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.primesoft.admin.serviceimpl.LoginServiceImplTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.426 sec
+Running com.primesoft.admin.serviceimpl.MoniterServiceImplTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running com.primesoft.admin.serviceimpl.ReaperServiceImplTest
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Users/primesoftadmin/.m2/repository/org/slf4j/slf4j-log4j12/1.6.4/slf4j-log4j12-1.6.4.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/Users/primesoftadmin/.m2/repository/org/slf4j/slf4j-simple/1.7.5/slf4j-simple-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+Tests run: 37, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.105 sec
+Running com.primesoft.admin.serviceimpl.UserServiceImplTest
+Tests run: 46, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.099 sec
+Running com.primesoft.azuresdk.serviceimpl.DeploymentAzureSDKServiceImplTest
+Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.781 sec
+Running com.primesoft.saas.api.SaasAPICallServiceImplTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+
+Results :
+
+Tests run: 250, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]
+[INFO] --- jacoco-maven-plugin:0.7.5.201505241946:report (post-unit-test) @ CloudAccessManager ---
+[INFO] Analyzed bundle 'Cloud Access Manager Maven Webapp' with 49 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:02 min
+[INFO] Finished at: 2017-10-05T10:32:50Z
+[INFO] Final Memory: 29M/109M
+[INFO] ------------------------------------------------------------------------
+
+C:\Users\primesoftadmin\workspace\CloudAccessManager>
