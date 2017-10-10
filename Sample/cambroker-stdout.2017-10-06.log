@@ -1,0 +1,569 @@
+
+2017-10-06 04:53:49 Commons Daemon procrun stdout initialized
+04:56:33,946 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+04:56:33,946 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+04:56:33,946 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/C:/tomcat/apache-tomcat-8.0.39/CAMBroker/webapps/pcoip-broker/WEB-INF/classes/logback.xml]
+04:56:34,351 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+04:56:34,366 |-INFO in ch.qos.logback.core.joran.action.TimestampAction - Using current interpretation time, i.e. now, as time reference.
+04:56:34,366 |-INFO in ch.qos.logback.core.joran.action.TimestampAction - Adding property to the context with key="bySecond" and value="20171006T045634" to the LOCAL scope
+04:56:34,366 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+04:56:34,680 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [consoleAppender]
+04:56:35,666 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+04:56:37,591 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+04:56:37,622 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [TIME_BASED_FILE]
+04:56:38,045 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use gz compression
+04:56:38,045 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use the pattern c:/logs/timeBasedlogFile.%d for the active file
+04:56:38,267 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - The date pattern is 'yyyy-MM-dd' from file name pattern 'c:/logs/timeBasedlogFile.%d.gz'.
+04:56:38,267 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Roll-over at midnight.
+04:56:38,470 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Setting initial period to Thu Oct 05 13:17:27 UTC 2017
+04:56:38,515 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[TIME_BASED_FILE] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+04:56:38,515 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[TIME_BASED_FILE] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+04:56:38,515 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[TIME_BASED_FILE] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+04:56:38,515 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[TIME_BASED_FILE] - Active log file name: c:/logs/timeBasedlogFile.log
+04:56:38,515 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[TIME_BASED_FILE] - File property is set to [c:/logs/timeBasedlogFile.log]
+04:56:38,515 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [com.primesoftcb] to false
+04:56:38,530 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - com.primesoftcb level set to TRACE
+04:56:38,530 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [consoleAppender] to Logger[com.primesoftcb]
+04:56:38,530 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [TIME_BASED_FILE] to Logger[com.primesoftcb]
+04:56:38,530 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - ROOT level set to INFO
+04:56:38,530 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [TIME_BASED_FILE] to Logger[ROOT]
+04:56:38,530 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [consoleAppender] to Logger[ROOT]
+04:56:38,530 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+04:56:38,530 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@1d034015 - Registering current configuration as safe fallback point
+
+2017-10-06T04:56:38.626Z [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization started 
+2017-10-06T04:56:40.878Z [localhost-startStop-1] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Fri Oct 06 04:56:40 UTC 2017]; root of context hierarchy 
+2017-10-06T04:56:41.065Z [localhost-startStop-1] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/appServlet/root-context.xml] 
+2017-10-06T04:56:43.099Z [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4381 ms 
+2017-10-06T04:56:43.537Z [localhost-startStop-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'appServlet': initialization started 
+2017-10-06T04:56:43.554Z [localhost-startStop-1] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'appServlet-servlet': startup date [Fri Oct 06 04:56:43 UTC 2017]; parent: Root WebApplicationContext 
+2017-10-06T04:56:43.554Z [localhost-startStop-1] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/appServlet/servlet-context.xml] 
+2017-10-06T04:56:51.409Z [localhost-startStop-1] INFO  o.s.b.f.s.DefaultListableBeanFactory - Overriding bean definition for bean 'mvcContentNegotiationManager': replacing [Root bean: class [org.springframework.web.accept.ContentNegotiationManagerFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration; factoryMethodName=mvcContentNegotiationManager; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/web/servlet/config/annotation/DelegatingWebMvcConfiguration.class]] 
+2017-10-06T04:56:51.421Z [localhost-startStop-1] INFO  o.s.c.a.ConfigurationClassBeanDefinitionReader - Skipping bean definition for [BeanMethod:name=mvcUriComponentsContributor,declaringClass=org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport]: a definition for bean 'mvcUriComponentsContributor' already exists. This top-level bean definition is considered as an override. 
+2017-10-06T04:56:52.970Z [localhost-startStop-1] INFO  o.s.c.s.PropertySourcesPlaceholderConfigurer - Loading properties file from URL [file:C:/tomcat/apache-tomcat-8.0.39/brokerproperty/connectionbroker.properties] 
+2017-10-06T04:56:54.956Z [localhost-startStop-1] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+2017-10-06T04:56:56.554Z [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/xml],methods=[POST],params=[],headers=[],consumes=[text/xml],produces=[text/xml],custom=[]}" onto public org.springframework.http.ResponseEntity<com.primesoftcb.model.PcoipBroker> com.primesoftcb.controller.TeradicicbController.getResponse(com.primesoftcb.model.PcoipBroker,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+2017-10-06T04:56:58.240Z [localhost-startStop-1] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in restResponseEntityExceptionHandler 
+2017-10-06T04:56:58.379Z [localhost-startStop-1] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0' 
+2017-10-06T04:56:58.771Z [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/xml],methods=[POST],params=[],headers=[],consumes=[text/xml],produces=[text/xml],custom=[]}" onto public org.springframework.http.ResponseEntity<com.primesoftcb.model.PcoipBroker> com.primesoftcb.controller.TeradicicbController.getResponse(com.primesoftcb.model.PcoipBroker,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+2017-10-06T04:56:59.317Z [localhost-startStop-1] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in restResponseEntityExceptionHandler 
+2017-10-06T04:56:59.818Z [localhost-startStop-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'appServlet': initialization completed in 16281 ms 
+2017-10-06T11:08:07.289Z [localhost-startStop-2] INFO  o.s.w.c.s.XmlWebApplicationContext - Closing WebApplicationContext for namespace 'appServlet-servlet': startup date [Fri Oct 06 04:56:43 UTC 2017]; parent: Root WebApplicationContext 
+2017-10-06T11:08:07.329Z [localhost-startStop-2] INFO  o.s.w.c.s.XmlWebApplicationContext - Closing Root WebApplicationContext: startup date [Fri Oct 06 04:56:40 UTC 2017]; root of context hierarchy 
+
+2017-10-06 11:08:56 Commons Daemon procrun stdout initialized
+11:09:43,619 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+11:09:43,619 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+11:09:43,621 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/C:/tomcat/apache-tomcat-8.0.39/CAMBroker/webapps/pcoip-broker/WEB-INF/classes/logback.xml]
+11:09:44,190 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+11:09:44,204 |-INFO in ch.qos.logback.core.joran.action.TimestampAction - Using current interpretation time, i.e. now, as time reference.
+11:09:44,207 |-INFO in ch.qos.logback.core.joran.action.TimestampAction - Adding property to the context with key="bySecond" and value="20171006T110944" to the LOCAL scope
+11:09:44,209 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+11:09:44,272 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [consoleAppender]
+11:09:44,399 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+11:09:44,730 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+11:09:44,735 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [TIME_BASED_FILE]
+11:09:44,832 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use gz compression
+11:09:44,835 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use the pattern c:/logs/timeBasedlogFile.%d for the active file
+11:09:44,852 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - The date pattern is 'yyyy-MM-dd' from file name pattern 'c:/logs/timeBasedlogFile.%d.gz'.
+11:09:44,852 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Roll-over at midnight.
+11:09:44,852 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Setting initial period to Fri Oct 06 11:08:07 UTC 2017
+11:09:44,890 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[TIME_BASED_FILE] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+11:09:44,890 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[TIME_BASED_FILE] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+11:09:44,890 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[TIME_BASED_FILE] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+11:09:44,893 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[TIME_BASED_FILE] - Active log file name: c:/logs/timeBasedlogFile.log
+11:09:44,893 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[TIME_BASED_FILE] - File property is set to [c:/logs/timeBasedlogFile.log]
+11:09:44,901 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [com.primesoftcb] to false
+11:09:44,901 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - com.primesoftcb level set to TRACE
+11:09:44,901 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [consoleAppender] to Logger[com.primesoftcb]
+11:09:44,902 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [TIME_BASED_FILE] to Logger[com.primesoftcb]
+11:09:44,902 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - ROOT level set to INFO
+11:09:44,902 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [TIME_BASED_FILE] to Logger[ROOT]
+11:09:44,902 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [consoleAppender] to Logger[ROOT]
+11:09:44,902 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+11:09:44,908 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@5bbd15b7 - Registering current configuration as safe fallback point
+
+2017-10-06T11:09:44.949Z [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization started 
+2017-10-06T11:09:45.630Z [localhost-startStop-1] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Fri Oct 06 11:09:45 UTC 2017]; root of context hierarchy 
+2017-10-06T11:09:45.844Z [localhost-startStop-1] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/appServlet/root-context.xml] 
+2017-10-06T11:09:47.376Z [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2418 ms 
+2017-10-06T11:09:47.824Z [localhost-startStop-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'appServlet': initialization started 
+2017-10-06T11:09:47.835Z [localhost-startStop-1] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'appServlet-servlet': startup date [Fri Oct 06 11:09:47 UTC 2017]; parent: Root WebApplicationContext 
+2017-10-06T11:09:47.843Z [localhost-startStop-1] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/appServlet/servlet-context.xml] 
+2017-10-06T11:09:52.159Z [localhost-startStop-1] INFO  o.s.b.f.s.DefaultListableBeanFactory - Overriding bean definition for bean 'mvcContentNegotiationManager': replacing [Root bean: class [org.springframework.web.accept.ContentNegotiationManagerFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration; factoryMethodName=mvcContentNegotiationManager; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/web/servlet/config/annotation/DelegatingWebMvcConfiguration.class]] 
+2017-10-06T11:09:52.168Z [localhost-startStop-1] INFO  o.s.c.a.ConfigurationClassBeanDefinitionReader - Skipping bean definition for [BeanMethod:name=mvcUriComponentsContributor,declaringClass=org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport]: a definition for bean 'mvcUriComponentsContributor' already exists. This top-level bean definition is considered as an override. 
+2017-10-06T11:09:53.305Z [localhost-startStop-1] INFO  o.s.c.s.PropertySourcesPlaceholderConfigurer - Loading properties file from URL [file:C:/tomcat/apache-tomcat-8.0.39/brokerproperty/connectionbroker.properties] 
+2017-10-06T11:09:53.911Z [localhost-startStop-1] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+2017-10-06T11:09:55.258Z [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/xml],methods=[POST],params=[],headers=[],consumes=[text/xml],produces=[text/xml],custom=[]}" onto public org.springframework.http.ResponseEntity<com.primesoftcb.model.PcoipBroker> com.primesoftcb.controller.TeradicicbController.getResponse(com.primesoftcb.model.PcoipBroker,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+2017-10-06T11:09:56.249Z [localhost-startStop-1] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in restResponseEntityExceptionHandler 
+2017-10-06T11:09:56.407Z [localhost-startStop-1] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0' 
+2017-10-06T11:09:56.599Z [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/xml],methods=[POST],params=[],headers=[],consumes=[text/xml],produces=[text/xml],custom=[]}" onto public org.springframework.http.ResponseEntity<com.primesoftcb.model.PcoipBroker> com.primesoftcb.controller.TeradicicbController.getResponse(com.primesoftcb.model.PcoipBroker,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+2017-10-06T11:09:56.845Z [localhost-startStop-1] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in restResponseEntityExceptionHandler 
+2017-10-06T11:09:57.033Z [localhost-startStop-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'appServlet': initialization completed in 9207 ms 
+2017-10-06T11:12:34.072Z [http-nio-8444-exec-5] INFO  c.p.filter.WhiteSpaceFilter - Inside WhiteSpaceFilter, to remove Extra Space before xml opening tag 
+2017-10-06T11:12:38.672Z [http-nio-8444-exec-5] TRACE c.p.helper.CheckRequestHelper - ReceivedRequest from connection Manager:
+<pcoip-broker version="2.1">
+    <hello>
+        <client-info>
+            <product-name>Teradici PCoIP Client</product-name>
+            <product-version>1.5</product-version>
+            <platform>Windows/x86</platform>
+            <locale>en_US</locale>
+            <hostname>AbdulN-PC</hostname>
+            <serial-number>F0:92:1C:F0:01:0E</serial-number>
+            <device-name>AbdulN-PC</device-name>
+            <pcoip-unique-id>F0:92:1C:F0:01:0E</pcoip-unique-id>
+        </client-info>
+        <pcm-info>
+            <product-name>PCoIP Connection Manager</product-name>
+            <product-version>1.6.0.979.6c9c95b</product-version>
+            <platform>GNU/Linux x86_64</platform>
+            <ip-address>10.0.0.10</ip-address>
+            <hostname>vm-cm</hostname>
+        </pcm-info>
+        <caps>
+            <cap>CAP_DISCLAIMER_AUTHENTICATION</cap>
+            <cap>CAP_NO_AUTHENTICATION</cap>
+            <cap>CAP_ALTERNATE_CREDENTIALS</cap>
+        </caps>
+    </hello>
+</pcoip-broker>
+ 
+2017-10-06T11:12:38.679Z [http-nio-8444-exec-5] TRACE c.p.helper.TeradicicbHelper - detected a new request  from115.112.108.130:54698 
+2017-10-06T11:12:38.681Z [http-nio-8444-exec-5] INFO  c.p.helper.TeradicicbHelper - Received a Hello Request from Connection Manager 
+2017-10-06T11:12:38.681Z [http-nio-8444-exec-5] TRACE c.p.helper.UserAuthentication - Sending Request to domain Controller at Fri Oct 06 11:12:38 UTC 2017 
+2017-10-06T11:12:39.204Z [http-nio-8444-exec-5] TRACE c.p.helper.UserAuthentication - Received Response from domain Controller at Fri Oct 06 11:12:39 UTC 2017 
+2017-10-06T11:12:39.204Z [http-nio-8444-exec-5] TRACE c.p.helper.UserAuthentication - Response in Milliseconds=523 
+2017-10-06T11:12:39.208Z [http-nio-8444-exec-5] INFO  c.p.helper.TeradicicbHelper - 
+################################### BUILD-INFORMATION ###################################
+                        build-vcs-number   :   ${build-vcs-number}
+                        build-number   :   ${build-number}
+                        Created-By   :   Maven Integration for Eclipse
+                        Manifest-Version   :   1.0
+                        Built-By   :   primesoftadmin
+                        Build-Jdk   :   1.8.0_131
+######################################################################################### 
+2017-10-06T11:12:39.225Z [http-nio-8444-exec-5] INFO  c.p.helper.TeradicicbHelper - Sending Hello Response to client 
+2017-10-06T11:12:40.403Z [http-nio-8444-exec-5] TRACE c.p.helper.CheckRequestHelper - Sending Response to connection Manager:
+<pcoip-broker version="2.1">
+    <hello-resp>
+        <brokers-info>
+            <broker-info>
+                <product-name>CAS Connection Broker</product-name>
+                <product-version>1.0</product-version>
+                <platform>Windows Server 2016</platform>
+                <locale>en_US</locale>
+                <ip-address>10.0.0.11</ip-address>
+                <hostname>vm-au.teradicicb.com</hostname>
+            </broker-info>
+        </brokers-info>
+        <next-authentication>
+            <authentication-methods>
+                <method>AUTHENTICATE_VIA_PASSWORD</method>
+            </authentication-methods>
+            <domains>
+                <domain>teradicicb.com</domain>
+            </domains>
+        </next-authentication>
+    </hello-resp>
+</pcoip-broker>
+ 
+2017-10-06T11:12:56.752Z [http-nio-8444-exec-2] INFO  c.p.filter.WhiteSpaceFilter - Inside WhiteSpaceFilter, to remove Extra Space before xml opening tag 
+2017-10-06T11:12:58.849Z [http-nio-8444-exec-2] TRACE c.p.helper.CheckRequestHelper - ReceivedRequest from connection Manager:
+<pcoip-broker version="2.1">
+    <authenticate method="password">
+        <username>abdul001</username>
+        <password>***********</password>
+        <domain>teradicicb.com</domain>
+    </authenticate>
+</pcoip-broker>
+ 
+2017-10-06T11:12:58.849Z [http-nio-8444-exec-2] INFO  c.p.helper.TeradicicbHelper - Received a authenticate Request from Connection Manager 
+2017-10-06T11:12:58.852Z [http-nio-8444-exec-2] TRACE c.p.helper.UserAuthentication - Sending Request to domain Controller at Fri Oct 06 11:12:58 UTC 2017 
+2017-10-06T11:12:59.016Z [http-nio-8444-exec-2] ERROR c.p.helper.UserAuthentication - The Expected Resource is not avialableorg.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1] 
+2017-10-06T11:12:59.018Z [http-nio-8444-exec-2] INFO  c.p.helper.UserAuthentication - Authentication successful,sending Authentication Response to Connection Manager 
+2017-10-06T11:12:59.019Z [http-nio-8444-exec-2] INFO  c.p.helper.UserAuthentication - Authentication Sucessful !! User has no Resources 
+2017-10-06T11:12:59.019Z [http-nio-8444-exec-2] TRACE c.p.helper.UserAuthentication - Received Response from domain Controller at Fri Oct 06 11:12:59 UTC 2017 
+2017-10-06T11:12:59.019Z [http-nio-8444-exec-2] TRACE c.p.helper.UserAuthentication - Response in Milliseconds=167 
+2017-10-06T11:12:59.525Z [http-nio-8444-exec-2] TRACE c.p.helper.CheckRequestHelper - Sending Response to connection Manager:
+<pcoip-broker version="2.1">
+    <authenticate-resp method="password">
+        <result>
+            <result-id>AUTH_FAILED_USER_HAS_NO_RESOURCE</result-id>
+            <result-str>Authentication Sucessful !! User has no Resources</result-str>
+        </result>
+    </authenticate-resp>
+</pcoip-broker>
+ 
+2017-10-06T11:13:04.084Z [http-nio-8444-exec-3] INFO  c.p.filter.WhiteSpaceFilter - Inside WhiteSpaceFilter, to remove Extra Space before xml opening tag 
+2017-10-06T11:13:04.858Z [http-nio-8444-exec-3] TRACE c.p.helper.CheckRequestHelper - ReceivedRequest from connection Manager:
+<pcoip-broker version="2.1">
+    <bye/>
+</pcoip-broker>
+ 
+2017-10-06T11:13:04.859Z [http-nio-8444-exec-3] INFO  c.p.helper.TeradicicbHelper - Received a bye Request from Connection Manager 
+2017-10-06T11:13:05.333Z [http-nio-8444-exec-3] TRACE c.p.helper.CheckRequestHelper - Sending Response to connection Manager:
+<pcoip-broker version="2.1">
+    <bye-resp/>
+</pcoip-broker>
+ 
+2017-10-06T11:15:21.242Z [http-nio-8444-exec-1] INFO  c.p.filter.WhiteSpaceFilter - Inside WhiteSpaceFilter, to remove Extra Space before xml opening tag 
+2017-10-06T11:15:22.531Z [http-nio-8444-exec-1] TRACE c.p.helper.CheckRequestHelper - ReceivedRequest from connection Manager:
+<pcoip-broker version="2.1">
+    <hello>
+        <client-info>
+            <product-name>Teradici PCoIP Client</product-name>
+            <product-version>1.5</product-version>
+            <platform>Windows/x86</platform>
+            <locale>en_US</locale>
+            <hostname>AbdulN-PC</hostname>
+            <serial-number>F0:92:1C:F0:01:0E</serial-number>
+            <device-name>AbdulN-PC</device-name>
+            <pcoip-unique-id>F0:92:1C:F0:01:0E</pcoip-unique-id>
+        </client-info>
+        <pcm-info>
+            <product-name>PCoIP Connection Manager</product-name>
+            <product-version>1.6.0.979.6c9c95b</product-version>
+            <platform>GNU/Linux x86_64</platform>
+            <ip-address>10.0.0.10</ip-address>
+            <hostname>vm-cm</hostname>
+        </pcm-info>
+        <caps>
+            <cap>CAP_DISCLAIMER_AUTHENTICATION</cap>
+            <cap>CAP_NO_AUTHENTICATION</cap>
+            <cap>CAP_ALTERNATE_CREDENTIALS</cap>
+        </caps>
+    </hello>
+</pcoip-broker>
+ 
+2017-10-06T11:15:22.532Z [http-nio-8444-exec-1] TRACE c.p.helper.TeradicicbHelper - detected a new request  from115.112.108.130:54731 
+2017-10-06T11:15:22.532Z [http-nio-8444-exec-1] INFO  c.p.helper.TeradicicbHelper - Received a Hello Request from Connection Manager 
+2017-10-06T11:15:22.537Z [http-nio-8444-exec-1] TRACE c.p.helper.UserAuthentication - Sending Request to domain Controller at Fri Oct 06 11:15:22 UTC 2017 
+2017-10-06T11:15:22.867Z [http-nio-8444-exec-1] TRACE c.p.helper.UserAuthentication - Received Response from domain Controller at Fri Oct 06 11:15:22 UTC 2017 
+2017-10-06T11:15:22.867Z [http-nio-8444-exec-1] TRACE c.p.helper.UserAuthentication - Response in Milliseconds=335 
+2017-10-06T11:15:22.869Z [http-nio-8444-exec-1] INFO  c.p.helper.TeradicicbHelper - 
+################################### BUILD-INFORMATION ###################################
+                        build-vcs-number   :   ${build-vcs-number}
+                        build-number   :   ${build-number}
+                        Created-By   :   Maven Integration for Eclipse
+                        Manifest-Version   :   1.0
+                        Built-By   :   primesoftadmin
+                        Build-Jdk   :   1.8.0_131
+######################################################################################### 
+2017-10-06T11:15:22.872Z [http-nio-8444-exec-1] INFO  c.p.helper.TeradicicbHelper - Sending Hello Response to client 
+2017-10-06T11:15:23.840Z [http-nio-8444-exec-1] TRACE c.p.helper.CheckRequestHelper - Sending Response to connection Manager:
+<pcoip-broker version="2.1">
+    <hello-resp>
+        <brokers-info>
+            <broker-info>
+                <product-name>CAS Connection Broker</product-name>
+                <product-version>1.0</product-version>
+                <platform>Windows Server 2016</platform>
+                <locale>en_US</locale>
+                <ip-address>10.0.0.11</ip-address>
+                <hostname>vm-au.teradicicb.com</hostname>
+            </broker-info>
+        </brokers-info>
+        <next-authentication>
+            <authentication-methods>
+                <method>AUTHENTICATE_VIA_PASSWORD</method>
+            </authentication-methods>
+            <domains>
+                <domain>teradicicb.com</domain>
+            </domains>
+        </next-authentication>
+    </hello-resp>
+</pcoip-broker>
+ 
+2017-10-06T11:15:31.953Z [http-nio-8444-exec-7] INFO  c.p.filter.WhiteSpaceFilter - Inside WhiteSpaceFilter, to remove Extra Space before xml opening tag 
+2017-10-06T11:15:32.773Z [http-nio-8444-exec-7] TRACE c.p.helper.CheckRequestHelper - ReceivedRequest from connection Manager:
+<pcoip-broker version="2.1">
+    <authenticate method="password">
+        <username>abdul001</username>
+        <password>***********</password>
+        <domain>teradicicb.com</domain>
+    </authenticate>
+</pcoip-broker>
+ 
+2017-10-06T11:15:32.773Z [http-nio-8444-exec-7] INFO  c.p.helper.TeradicicbHelper - Received a authenticate Request from Connection Manager 
+2017-10-06T11:15:32.774Z [http-nio-8444-exec-7] TRACE c.p.helper.UserAuthentication - Sending Request to domain Controller at Fri Oct 06 11:15:32 UTC 2017 
+2017-10-06T11:15:32.973Z [http-nio-8444-exec-7] ERROR c.p.helper.UserAuthentication - JNDI Naming Exception in closing contextjavax.naming.AuthenticationException: [LDAP: error code 49 - 80090308: LdapErr: DSID-0C09042A, comment: AcceptSecurityContext error, data 52e, v3839 ] 
+2017-10-06T11:15:32.973Z [http-nio-8444-exec-7] ERROR c.p.helper.UserAuthentication - Authentication failed.invalid Username,password or Domain 
+2017-10-06T11:15:32.973Z [http-nio-8444-exec-7] TRACE c.p.helper.UserAuthentication - Received Response from domain Controller at Fri Oct 06 11:15:32 UTC 2017 
+2017-10-06T11:15:32.974Z [http-nio-8444-exec-7] TRACE c.p.helper.UserAuthentication - Response in Milliseconds=199 
+2017-10-06T11:15:34.354Z [http-nio-8444-exec-7] TRACE c.p.helper.CheckRequestHelper - Sending Response to connection Manager:
+<pcoip-broker version="2.1">
+    <authenticate-resp method="password">
+        <result>
+            <result-id>AUTH_FAILED_UNKNOWN_USERNAME_OR_PASSWORD</result-id>
+            <result-str>Password authentication failed. User could not be authenticated using the specified username, password, and domain</result-str>
+        </result>
+    </authenticate-resp>
+</pcoip-broker>
+ 
+2017-10-06T11:15:44.678Z [http-nio-8444-exec-4] INFO  c.p.filter.WhiteSpaceFilter - Inside WhiteSpaceFilter, to remove Extra Space before xml opening tag 
+2017-10-06T11:15:45.641Z [http-nio-8444-exec-4] TRACE c.p.helper.CheckRequestHelper - ReceivedRequest from connection Manager:
+<pcoip-broker version="2.1">
+    <authenticate method="password">
+        <username>abdul001</username>
+        <password>***********</password>
+        <domain>teradicicb.com</domain>
+    </authenticate>
+</pcoip-broker>
+ 
+2017-10-06T11:15:45.646Z [http-nio-8444-exec-4] INFO  c.p.helper.TeradicicbHelper - Received a authenticate Request from Connection Manager 
+2017-10-06T11:15:45.647Z [http-nio-8444-exec-4] TRACE c.p.helper.UserAuthentication - Sending Request to domain Controller at Fri Oct 06 11:15:45 UTC 2017 
+2017-10-06T11:15:45.754Z [http-nio-8444-exec-4] ERROR c.p.helper.UserAuthentication - JNDI Naming Exception in closing contextjavax.naming.AuthenticationException: [LDAP: error code 49 - 80090308: LdapErr: DSID-0C09042A, comment: AcceptSecurityContext error, data 52e, v3839 ] 
+2017-10-06T11:15:45.759Z [http-nio-8444-exec-4] ERROR c.p.helper.UserAuthentication - Authentication failed.invalid Username,password or Domain 
+2017-10-06T11:15:45.759Z [http-nio-8444-exec-4] TRACE c.p.helper.UserAuthentication - Received Response from domain Controller at Fri Oct 06 11:15:45 UTC 2017 
+2017-10-06T11:15:45.759Z [http-nio-8444-exec-4] TRACE c.p.helper.UserAuthentication - Response in Milliseconds=112 
+2017-10-06T11:15:46.301Z [http-nio-8444-exec-4] TRACE c.p.helper.CheckRequestHelper - Sending Response to connection Manager:
+<pcoip-broker version="2.1">
+    <authenticate-resp method="password">
+        <result>
+            <result-id>AUTH_FAILED_UNKNOWN_USERNAME_OR_PASSWORD</result-id>
+            <result-str>Password authentication failed. User could not be authenticated using the specified username, password, and domain</result-str>
+        </result>
+    </authenticate-resp>
+</pcoip-broker>
+ 
+2017-10-06T11:15:55.310Z [http-nio-8444-exec-10] INFO  c.p.filter.WhiteSpaceFilter - Inside WhiteSpaceFilter, to remove Extra Space before xml opening tag 
+2017-10-06T11:15:56.333Z [http-nio-8444-exec-10] TRACE c.p.helper.CheckRequestHelper - ReceivedRequest from connection Manager:
+<pcoip-broker version="2.1">
+    <authenticate method="password">
+        <username>abdul001</username>
+        <password>***********</password>
+        <domain>teradicicb.com</domain>
+    </authenticate>
+</pcoip-broker>
+ 
+2017-10-06T11:15:56.334Z [http-nio-8444-exec-10] INFO  c.p.helper.TeradicicbHelper - Received a authenticate Request from Connection Manager 
+2017-10-06T11:15:56.334Z [http-nio-8444-exec-10] TRACE c.p.helper.UserAuthentication - Sending Request to domain Controller at Fri Oct 06 11:15:56 UTC 2017 
+2017-10-06T11:15:56.585Z [http-nio-8444-exec-10] INFO  c.p.helper.UserAuthentication - Authentication successful,sending Authentication Response to Connection Manager 
+2017-10-06T11:15:56.585Z [http-nio-8444-exec-10] TRACE c.p.helper.UserAuthentication - Received Response from domain Controller at Fri Oct 06 11:15:56 UTC 2017 
+2017-10-06T11:15:56.585Z [http-nio-8444-exec-10] TRACE c.p.helper.UserAuthentication - Response in Milliseconds=251 
+2017-10-06T11:15:57.022Z [http-nio-8444-exec-10] TRACE c.p.helper.CheckRequestHelper - Sending Response to connection Manager:
+<pcoip-broker version="2.1">
+    <authenticate-resp method="password">
+        <result>
+            <result-id>AUTH_SUCCESSFUL_AND_COMPLETE</result-id>
+            <result-str>Password authentication was successful and user authentication has been completed</result-str>
+        </result>
+    </authenticate-resp>
+</pcoip-broker>
+ 
+2017-10-06T11:15:58.298Z [http-nio-8444-exec-2] INFO  c.p.filter.WhiteSpaceFilter - Inside WhiteSpaceFilter, to remove Extra Space before xml opening tag 
+2017-10-06T11:15:59.158Z [http-nio-8444-exec-2] TRACE c.p.helper.CheckRequestHelper - ReceivedRequest from connection Manager:
+<pcoip-broker version="2.1">
+    <get-resource-list>
+        <protocols>
+            <protocol>PCOIP</protocol>
+        </protocols>
+        <resource-types>
+            <resource-type>DESKTOP</resource-type>
+        </resource-types>
+    </get-resource-list>
+</pcoip-broker>
+ 
+2017-10-06T11:15:59.159Z [http-nio-8444-exec-2] INFO  c.p.helper.TeradicicbHelper - Received a GetResourceList Request from Connection Manager 
+2017-10-06T11:15:59.161Z [http-nio-8444-exec-2] ERROR c.p.boimpl.GetResourcesListImpl -  resourceMap {vm-desk={session=VDI, name=vm-desk, resource-type=DESKTOP}} 
+2017-10-06T11:15:59.161Z [http-nio-8444-exec-2] INFO  c.p.boimpl.GetResourcesListImpl - successfully retreived the list of resources available for user 
+2017-10-06T11:15:59.491Z [http-nio-8444-exec-2] TRACE c.p.helper.CheckRequestHelper - Sending Response to connection Manager:
+<pcoip-broker version="2.1">
+    <get-resource-list-resp>
+        <result>
+            <result-id>LIST_SUCCESSFUL</result-id>
+            <result-str>Successfully retrieved the list of resources|</result-str>
+        </result>
+        <resource>
+            <resource-name>vm-desk</resource-name>
+            <resource-id>vm-desk</resource-id>
+            <resource-type session-type="VDI">DESKTOP</resource-type>
+            <resource-state>UNKNOWN</resource-state>
+            <protocols>
+                <protocol is-default="true">PCOIP</protocol>
+            </protocols>
+        </resource>
+    </get-resource-list-resp>
+</pcoip-broker>
+ 
+2017-10-06T11:21:32.489Z [localhost-startStop-2] INFO  o.s.w.c.s.XmlWebApplicationContext - Closing WebApplicationContext for namespace 'appServlet-servlet': startup date [Fri Oct 06 11:09:47 UTC 2017]; parent: Root WebApplicationContext 
+2017-10-06T11:21:32.583Z [localhost-startStop-2] INFO  o.s.w.c.s.XmlWebApplicationContext - Closing Root WebApplicationContext: startup date [Fri Oct 06 11:09:45 UTC 2017]; root of context hierarchy 
+
+2017-10-06 11:21:58 Commons Daemon procrun stdout initialized
+11:22:34,246 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+11:22:34,246 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+11:22:34,252 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/C:/tomcat/apache-tomcat-8.0.39/CAMBroker/webapps/pcoip-broker/WEB-INF/classes/logback.xml]
+11:22:34,545 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+11:22:34,556 |-INFO in ch.qos.logback.core.joran.action.TimestampAction - Using current interpretation time, i.e. now, as time reference.
+11:22:34,563 |-INFO in ch.qos.logback.core.joran.action.TimestampAction - Adding property to the context with key="bySecond" and value="20171006T112234" to the LOCAL scope
+11:22:34,565 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+11:22:34,960 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [consoleAppender]
+11:22:35,059 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+11:22:35,409 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+11:22:35,419 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [TIME_BASED_FILE]
+11:22:35,511 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use gz compression
+11:22:35,513 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use the pattern c:/logs/timeBasedlogFile.%d for the active file
+11:22:35,531 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - The date pattern is 'yyyy-MM-dd' from file name pattern 'c:/logs/timeBasedlogFile.%d.gz'.
+11:22:35,531 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Roll-over at midnight.
+11:22:35,532 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Setting initial period to Fri Oct 06 11:21:33 UTC 2017
+11:22:35,570 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[TIME_BASED_FILE] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+11:22:35,570 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[TIME_BASED_FILE] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+11:22:35,570 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[TIME_BASED_FILE] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+11:22:35,573 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[TIME_BASED_FILE] - Active log file name: c:/logs/timeBasedlogFile.log
+11:22:35,573 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[TIME_BASED_FILE] - File property is set to [c:/logs/timeBasedlogFile.log]
+11:22:35,581 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [com.primesoftcb] to false
+11:22:35,581 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - com.primesoftcb level set to TRACE
+11:22:35,581 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [consoleAppender] to Logger[com.primesoftcb]
+11:22:35,593 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [TIME_BASED_FILE] to Logger[com.primesoftcb]
+11:22:35,593 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - ROOT level set to INFO
+11:22:35,593 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [TIME_BASED_FILE] to Logger[ROOT]
+11:22:35,593 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [consoleAppender] to Logger[ROOT]
+11:22:35,593 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+11:22:35,599 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@3d98a11d - Registering current configuration as safe fallback point
+
+2017-10-06T11:22:35.630Z [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization started 
+2017-10-06T11:22:36.213Z [localhost-startStop-1] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Fri Oct 06 11:22:36 UTC 2017]; root of context hierarchy 
+2017-10-06T11:22:36.434Z [localhost-startStop-1] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/appServlet/root-context.xml] 
+2017-10-06T11:22:37.346Z [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1699 ms 
+2017-10-06T11:22:37.620Z [localhost-startStop-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'appServlet': initialization started 
+2017-10-06T11:22:37.639Z [localhost-startStop-1] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'appServlet-servlet': startup date [Fri Oct 06 11:22:37 UTC 2017]; parent: Root WebApplicationContext 
+2017-10-06T11:22:37.640Z [localhost-startStop-1] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/appServlet/servlet-context.xml] 
+2017-10-06T11:22:41.821Z [localhost-startStop-1] INFO  o.s.b.f.s.DefaultListableBeanFactory - Overriding bean definition for bean 'mvcContentNegotiationManager': replacing [Root bean: class [org.springframework.web.accept.ContentNegotiationManagerFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration; factoryMethodName=mvcContentNegotiationManager; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/web/servlet/config/annotation/DelegatingWebMvcConfiguration.class]] 
+2017-10-06T11:22:41.830Z [localhost-startStop-1] INFO  o.s.c.a.ConfigurationClassBeanDefinitionReader - Skipping bean definition for [BeanMethod:name=mvcUriComponentsContributor,declaringClass=org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport]: a definition for bean 'mvcUriComponentsContributor' already exists. This top-level bean definition is considered as an override. 
+2017-10-06T11:22:42.717Z [localhost-startStop-1] INFO  o.s.c.s.PropertySourcesPlaceholderConfigurer - Loading properties file from URL [file:C:/tomcat/apache-tomcat-8.0.39/brokerproperty/connectionbroker.properties] 
+2017-10-06T11:22:42.839Z [localhost-startStop-1] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+2017-10-06T11:22:43.792Z [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/xml],methods=[POST],params=[],headers=[],consumes=[text/xml],produces=[text/xml],custom=[]}" onto public org.springframework.http.ResponseEntity<com.primesoftcb.model.PcoipBroker> com.primesoftcb.controller.TeradicicbController.getResponse(com.primesoftcb.model.PcoipBroker,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+2017-10-06T11:22:44.685Z [localhost-startStop-1] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in restResponseEntityExceptionHandler 
+2017-10-06T11:22:44.783Z [localhost-startStop-1] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0' 
+2017-10-06T11:22:44.960Z [localhost-startStop-1] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/xml],methods=[POST],params=[],headers=[],consumes=[text/xml],produces=[text/xml],custom=[]}" onto public org.springframework.http.ResponseEntity<com.primesoftcb.model.PcoipBroker> com.primesoftcb.controller.TeradicicbController.getResponse(com.primesoftcb.model.PcoipBroker,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+2017-10-06T11:22:45.203Z [localhost-startStop-1] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in restResponseEntityExceptionHandler 
+2017-10-06T11:22:45.410Z [localhost-startStop-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'appServlet': initialization completed in 7781 ms 
+2017-10-06T11:24:04.382Z [http-nio-8444-exec-5] INFO  c.p.filter.WhiteSpaceFilter - Inside WhiteSpaceFilter, to remove Extra Space before xml opening tag 
+2017-10-06T11:24:07.662Z [http-nio-8444-exec-5] TRACE c.p.helper.CheckRequestHelper - ReceivedRequest from connection Manager:
+<pcoip-broker version="2.1">
+    <hello>
+        <client-info>
+            <product-name>Teradici PCoIP Client</product-name>
+            <product-version>1.5</product-version>
+            <platform>Windows/x86</platform>
+            <locale>en_US</locale>
+            <hostname>AbdulN-PC</hostname>
+            <serial-number>F0:92:1C:F0:01:0E</serial-number>
+            <device-name>AbdulN-PC</device-name>
+            <pcoip-unique-id>F0:92:1C:F0:01:0E</pcoip-unique-id>
+        </client-info>
+        <pcm-info>
+            <product-name>PCoIP Connection Manager</product-name>
+            <product-version>1.6.0.979.6c9c95b</product-version>
+            <platform>GNU/Linux x86_64</platform>
+            <ip-address>10.0.0.10</ip-address>
+            <hostname>vm-cm</hostname>
+        </pcm-info>
+        <caps>
+            <cap>CAP_DISCLAIMER_AUTHENTICATION</cap>
+            <cap>CAP_NO_AUTHENTICATION</cap>
+            <cap>CAP_ALTERNATE_CREDENTIALS</cap>
+        </caps>
+    </hello>
+</pcoip-broker>
+ 
+2017-10-06T11:24:07.670Z [http-nio-8444-exec-5] TRACE c.p.helper.TeradicicbHelper - detected a new request  from115.112.108.130:54809 
+2017-10-06T11:24:07.672Z [http-nio-8444-exec-5] INFO  c.p.helper.TeradicicbHelper - Received a Hello Request from Connection Manager 
+2017-10-06T11:24:07.673Z [http-nio-8444-exec-5] TRACE c.p.helper.UserAuthentication - Sending Request to domain Controller at Fri Oct 06 11:24:07 UTC 2017 
+2017-10-06T11:24:08.134Z [http-nio-8444-exec-5] TRACE c.p.helper.UserAuthentication - Received Response from domain Controller at Fri Oct 06 11:24:08 UTC 2017 
+2017-10-06T11:24:08.134Z [http-nio-8444-exec-5] TRACE c.p.helper.UserAuthentication - Response in Milliseconds=462 
+2017-10-06T11:24:08.193Z [http-nio-8444-exec-5] INFO  c.p.helper.TeradicicbHelper - 
+################################### BUILD-INFORMATION ###################################
+                        build-vcs-number   :   ${build-vcs-number}
+                        build-number   :   ${build-number}
+                        Created-By   :   Maven Integration for Eclipse
+                        Manifest-Version   :   1.0
+                        Built-By   :   primesoftadmin
+                        Build-Jdk   :   1.8.0_131
+######################################################################################### 
+2017-10-06T11:24:08.203Z [http-nio-8444-exec-5] INFO  c.p.helper.TeradicicbHelper - Sending Hello Response to client 
+2017-10-06T11:24:09.467Z [http-nio-8444-exec-5] TRACE c.p.helper.CheckRequestHelper - Sending Response to connection Manager:
+<pcoip-broker version="2.1">
+    <hello-resp>
+        <brokers-info>
+            <broker-info>
+                <product-name>CAS Connection Broker</product-name>
+                <product-version>1.0</product-version>
+                <platform>Windows Server 2016</platform>
+                <locale>en_US</locale>
+                <ip-address>10.0.0.11</ip-address>
+                <hostname>vm-au.teradicicb.com</hostname>
+            </broker-info>
+        </brokers-info>
+        <next-authentication>
+            <authentication-methods>
+                <method>AUTHENTICATE_VIA_PASSWORD</method>
+            </authentication-methods>
+            <domains>
+                <domain>teradicicb.com</domain>
+            </domains>
+        </next-authentication>
+    </hello-resp>
+</pcoip-broker>
+ 
+2017-10-06T11:24:21.934Z [http-nio-8444-exec-1] INFO  c.p.filter.WhiteSpaceFilter - Inside WhiteSpaceFilter, to remove Extra Space before xml opening tag 
+2017-10-06T11:24:23.999Z [http-nio-8444-exec-1] TRACE c.p.helper.CheckRequestHelper - ReceivedRequest from connection Manager:
+<pcoip-broker version="2.1">
+    <authenticate method="password">
+        <username>abdul001</username>
+        <password>***********</password>
+        <domain>teradicicb.com</domain>
+    </authenticate>
+</pcoip-broker>
+ 
+2017-10-06T11:24:24.003Z [http-nio-8444-exec-1] INFO  c.p.helper.TeradicicbHelper - Received a authenticate Request from Connection Manager 
+2017-10-06T11:24:24.006Z [http-nio-8444-exec-1] TRACE c.p.helper.UserAuthentication - Sending Request to domain Controller at Fri Oct 06 11:24:24 UTC 2017 
+2017-10-06T11:24:24.419Z [http-nio-8444-exec-1] INFO  c.p.helper.UserAuthentication - Authentication successful,sending Authentication Response to Connection Manager 
+2017-10-06T11:24:24.422Z [http-nio-8444-exec-1] TRACE c.p.helper.UserAuthentication - Received Response from domain Controller at Fri Oct 06 11:24:24 UTC 2017 
+2017-10-06T11:24:24.422Z [http-nio-8444-exec-1] TRACE c.p.helper.UserAuthentication - Response in Milliseconds=416 
+2017-10-06T11:24:25.050Z [http-nio-8444-exec-1] TRACE c.p.helper.CheckRequestHelper - Sending Response to connection Manager:
+<pcoip-broker version="2.1">
+    <authenticate-resp method="password">
+        <result>
+            <result-id>AUTH_SUCCESSFUL_AND_COMPLETE</result-id>
+            <result-str>Password authentication was successful and user authentication has been completed</result-str>
+        </result>
+    </authenticate-resp>
+</pcoip-broker>
+ 
+2017-10-06T11:24:26.270Z [http-nio-8444-exec-2] INFO  c.p.filter.WhiteSpaceFilter - Inside WhiteSpaceFilter, to remove Extra Space before xml opening tag 
+2017-10-06T11:24:26.753Z [http-nio-8444-exec-2] TRACE c.p.helper.CheckRequestHelper - ReceivedRequest from connection Manager:
+<pcoip-broker version="2.1">
+    <get-resource-list>
+        <protocols>
+            <protocol>PCOIP</protocol>
+        </protocols>
+        <resource-types>
+            <resource-type>DESKTOP</resource-type>
+        </resource-types>
+    </get-resource-list>
+</pcoip-broker>
+ 
+2017-10-06T11:24:26.756Z [http-nio-8444-exec-2] INFO  c.p.helper.TeradicicbHelper - Received a GetResourceList Request from Connection Manager 
+2017-10-06T11:24:26.764Z [http-nio-8444-exec-2] INFO  c.p.boimpl.GetResourcesListImpl -  resourceMap {vm-desk={session=VDI, name=vm-desk, resource-type=DESKTOP}} 
+2017-10-06T11:24:26.765Z [http-nio-8444-exec-2] INFO  c.p.boimpl.GetResourcesListImpl - successfully retreived the list of resources available for user 
+2017-10-06T11:24:27.219Z [http-nio-8444-exec-2] TRACE c.p.helper.CheckRequestHelper - Sending Response to connection Manager:
+<pcoip-broker version="2.1">
+    <get-resource-list-resp>
+        <result>
+            <result-id>LIST_SUCCESSFUL</result-id>
+            <result-str>Successfully retrieved the list of resources|</result-str>
+        </result>
+        <resource>
+            <resource-name>vm-desk</resource-name>
+            <resource-id>vm-desk</resource-id>
+            <resource-type session-type="VDI">DESKTOP</resource-type>
+            <resource-state>UNKNOWN</resource-state>
+            <protocols>
+                <protocol is-default="true">PCOIP</protocol>
+            </protocols>
+        </resource>
+    </get-resource-list-resp>
+</pcoip-broker>
+ 
